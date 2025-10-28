@@ -915,3 +915,8 @@ config/database.yml
 *.zip
 
 # ===== END =====
+
+# Allow Next.js assets and lockfiles generated for this project
+!package-lock.json
+!public/
+!public/**/*
